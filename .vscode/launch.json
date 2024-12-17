@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_js",
+            "name": "flutter_js_stable",
             "request": "launch",
             "type": "dart",
             "args": [
@@ -31,7 +31,7 @@
         {
             "name": "test-with-flutterjs",
             "type": "dart",
-            "program": "test/flutter_js_test.dart",
+            "program": "test/flutter_js_stable_test.dart",
             "windows": {
                 "env": {
                     "PATH": "${env:Path};${workspaceFolder}\\example\\build\\windows\\runner\\Debug"

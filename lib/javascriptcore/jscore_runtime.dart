@@ -4,12 +4,12 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:ffi/ffi.dart';
-import 'package:flutter_js/javascript_runtime.dart';
-import 'package:flutter_js/javascriptcore/binding/js_object_ref.dart'
+import 'package:flutter_js_stable/javascript_runtime.dart';
+import 'package:flutter_js_stable/javascriptcore/binding/js_object_ref.dart'
     as jsObject;
-import 'package:flutter_js/javascriptcore/flutter_jscore.dart';
-import 'package:flutter_js/javascriptcore/jscore_bindings.dart';
-import 'package:flutter_js/js_eval_result.dart';
+import 'package:flutter_js_stable/javascriptcore/flutter_jscore.dart';
+import 'package:flutter_js_stable/javascriptcore/jscore_bindings.dart';
+import 'package:flutter_js_stable/js_eval_result.dart';
 
 class JavascriptCoreRuntime extends JavascriptRuntime {
   late Pointer _contextGroup;

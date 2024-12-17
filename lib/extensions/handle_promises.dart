@@ -1,13 +1,13 @@
 import 'dart:async';
 
-import 'package:flutter_js/javascript_runtime.dart';
-import 'package:flutter_js/js_eval_result.dart';
+import 'package:flutter_js_stable/javascript_runtime.dart';
+import 'package:flutter_js_stable/js_eval_result.dart';
 
 const REGISTER_PROMISE_FUNCTION = 'FLUTTER_NATIVEJS_REGISTER_PROMISE';
 
 extension HandlePromises on JavascriptRuntime {
   enableHandlePromises() {
-    evaluate(""" 
+    evaluate("""
      var FLUTTER_NATIVEJS_PENDING_PROMISES = {};
       var FLUTTER_NATIVEJS_PENDING_PROMISES_COUNT = -1;
 

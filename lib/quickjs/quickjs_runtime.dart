@@ -3,8 +3,8 @@ import 'dart:ffi';
 import 'dart:io';
 
 import 'package:ffi/ffi.dart';
-import 'package:flutter_js/flutter_js.dart';
-import 'package:flutter_js/quickjs/utf8_null_terminated.dart';
+import 'package:flutter_js_stable/flutter_js_stable.dart';
+import 'package:flutter_js_stable/quickjs/utf8_null_terminated.dart';
 
 import 'qjs_typedefs.dart';
 
@@ -274,7 +274,7 @@ class QuickJsRuntime extends JavascriptRuntime {
   void initChannelFunctions() {
     final sendMessageCreateFnResult = evaluate("""
         function sendMessage(channelName, message) {
-          return FLUTTER_JS_NATIVE_BRIDGE_sendMessage.apply(globalThis, [channelName, message]);
+          return FLUTTER_JS_stable_NATIVE_BRIDGE_sendMessage.apply(globalThis, [channelName, message]);
         }
         sendMessage
       """);

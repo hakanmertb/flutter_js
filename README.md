@@ -1,3 +1,7 @@
+# Flutter JS Stable
+
+This is a stable fork of [flutter_js](https://github.com/abner/flutter_js) with Android QuickJS runtime fixes.
+
 # Flutter JS plugin
 
 A Javascript engine to use with flutter. Now it is using QuickJS on Android   through Dart ffi and JavascriptCore on IOS also through dart-ffi. The Javascript runtimes runs synchronously through the dart ffi. So now you can run javascript code as a native citzen inside yours Flutter ~~Mobile~~ Apps (Android, IOS, Windows, Linux and MacOS are all supported).

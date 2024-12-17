@@ -1,4 +1,4 @@
-import 'package:flutter_js/flutter_js.dart';
+import 'package:flutter_js_stable/flutter_js_stable.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
